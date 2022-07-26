@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/main.min.css">
 
 </head>
 
@@ -34,7 +34,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="heder__contact">
+                <div class="header__contact">
                     <a class="header__link" href="mailto:info@devstudio.com"> 
                         <svg class="header__img" >
                             <use href="./images/sprate.svg#icon-envelope"></use>
@@ -386,38 +386,38 @@
         <div class="modal">
             <button data-modal-close class="modal__close" >
                 <svg class="modal__img"><use href="./images/sprate.svg#icon-close"></use></svg></button>
-            <div class="modal__inner">
+            <div class="modal__form">
                 <h3 class="modal__titel">Оставьте свои данные, мы вам перезвоним</h3>
                 <form class=""name="user-form" autocomplete="on">
                     <div class="modal__field">
-                        <label class="form__label" for="user-neme">Имя</label>
-                        <div class="form__inner">
-                            <input class="form__input" id="user-neme" type="text" name="neme" placeholder=" "required>
-                            <svg class="form__icon">
+                        <label class="modal__label" for="user-neme">Имя</label>
+                        <div class="modal__inner">
+                            <input class="modal__input" id="user-neme" type="text" name="neme" placeholder=" "required>
+                            <svg class="modal__icon">
                                 <use href="./images/sprate.svg#icon-person"></use>
                             </svg>
                         </div>
                     </div>
                     <div class="modal__field">
-                        <label class="form__label" for="phone-neme">Телефон</label>
-                        <div class="form__inner">
-                            <input class="form__input" id="phone-neme" type="text" name="phone" placeholder=" "required>
-                            <svg class="form__icon">
+                        <label class="modal__label" for="phone-neme">Телефон</label>
+                        <div class="modal__inner">
+                            <input class="modal__input" id="phone-neme" type="text" name="phone" placeholder=" "required>
+                            <svg class="modal__icon">
                                 <use href="./images/sprate.svg#icon-phone"></use>
                             </svg>
                         </div>
                     </div>
                     <div class="modal__field">
-                        <label class="form__label" for="user-email">Почта</label>
-                        <div class="form__inner">
-                            <input class="form__input" id="user-email" type="text" name="email" placeholder=" "required>
-                            <svg class="form__icon">
+                        <label class="modal__label" for="user-email">Почта</label>
+                        <div class="modal__inner">
+                            <input class="modal__input" id="user-email" type="text" name="email" placeholder=" "required>
+                            <svg class="modal__icon">
                                 <use href="./images/sprate.svg#icon-email"></use>
                             </svg>
                         </div> 
                     </div>
                     <div class="modal__field">
-                        <label class="form__label" for="user-coment">Комментарий</label>
+                        <label class="modal__label" for="user-coment">Комментарий</label>
                         <textarea class=" modal__textarea" name="user-coment" id="user-coment" placeholder="Введите текст"></textarea>
                     </div>
                     <div class="checkbox__modal checkbox">
@@ -428,8 +428,8 @@
                         <label class="checkbox__label" for="terms-condition">Соглашаюсь с рассылкой и принимаю 
                             <span class="modal__text--color">Условия договора</span> </label>
                     </div>
-                    <div class="modal__button">
-                    <button class="form__button" type="submit">Отправить</button> 
+                    <div class="">
+                    <button class="modal__button" type="submit">Отправить</button> 
                     </div>
                 </form>
             </div>
